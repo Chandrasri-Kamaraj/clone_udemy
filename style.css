@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px black solid;
+}
+.navbar_s1{
+    margin: 10px;
+    color: darkorchid;
+}
+.navbar_s2{
+    /* display: none; */
+    border: solid black 1px;
+    border-radius: 30px ;
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_s2 input{
+    border: none;
+    width: 100%;
+}
+.navbar_s2 input:focus{
+    outline: none;
+}
+.navbar_s3{
+    display: flex;
+    margin: 2px;
+    gap: 10px;
+    align-items: center;
+}
+.navbar_category{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.navbar_category h3{
+    background-color: darkorchid;
+    color: white;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.sale_section img{
+    width: 100%;
+}
+.course_recommend{
+    padding: 10px;
+}
+.course_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.course_card{
+     width: 300px     ;
+}
+.course_card img{
+    width: 100%;
+}
+.topic_recommend{
+    /* margin: 10px; */
+    padding: 10px;
+}
+.topic_container{
+ padding: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ flex-grow: 1;
+ 
+}
+.topic_container p{
+    border:solid  black 2px;
+    border-radius: 10px;
+    /* background-color: aliceblue;
+    color: black; */
+    flex-basis: 25%;
+    padding: 10px;
+
+}
+.popular{
+    /* margin: 10px; */
+    padding: 10px;
+}
+.popular_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.popular_card{
+     width: 300px;   
+     
+}
+.popular_card img{
+    width: 100%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.footer_s1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer_s11{
+    flex-grow: 1;
+}
+.footer_s12{
+    flex-grow: 1;
+}
+.footer_s2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
